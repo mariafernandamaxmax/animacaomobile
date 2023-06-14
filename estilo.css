@@ -1,0 +1,58 @@
+div{
+width: 100px;
+height: 100px;
+background: blue;
+position: relative;
+animation: movimento 9s linear infinite;
+}
+
+@keyframes movimento{
+
+ 0%{
+    background:red;
+ }
+
+  25%{
+    background: black;
+    transform: translateX(500px) translateY(500px);
+    border-radius: 50%;
+ }
+  
+ 50%{
+    background: yellow;
+    transform: translateX(0px) translateY(500px);
+ }
+
+ 75%{
+    background: rgb(1, 255, 14);
+    transform: translateX(500px) translateY(0px);
+    border-radius: 50%;
+ }
+ 
+ 100%{
+    background: rgb(255, 0, 200);
+    transform: translateX(0px) translateY(0px);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
